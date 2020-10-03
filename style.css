@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.travel_mainDiv {
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(161, 161, 161, 0.52) 0px 0px 9px 3px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#map {
+    width: 100%;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    text-align: justify;
+}
+
+iframe {
+    margin: auto;
+    height: 300px;
+    width: 100%;
+}
+
+#myNavbar {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.heading-primary {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-left: 2.5%;
+    color: #999999;
+    letter-spacing: .05em;
+    text-shadow: 1px 1px 0px #d5d5d5, 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-shadow: -1px -1px 1px #26292b, 2px 2px 1px #464a4d;
+    transition: ease 0.6s;
+}
+
+.success {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.header_enterprenuer {
+    line-height: 2;
+}
+
+.book {
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.book hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: left;
+}
+
+.glyphicon-star {
+    font-size: 15px;
+    color: #e67e22;
+}
+
+kbd {
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 17.5px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+}
+
+.txt-thing {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+    color: #818181;
+}
+
+.travel_mainDiv img {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.travel_mainDiv hr {
+    width: 80%;
+}
+
+.movie-head {
+    font-size: 15px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 95%;
+    display: inline-block;
+    margin-left: 2.75%;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.news_li {
+    margin-top: 13px;
+}
+
+.news_li img {
+    border-radius: 25px;
+}
+
+.news_li hr {
+    width: 90%;
+    background-color: white;
+}
+
+.news_li p {
+    margin-top: 10px;
+}
+
+.movie-head i {
+    float: right;
+}
+
+#half-star:before {
+    position: relative;
+    z-index: 9;
+    width: 47%;
+    display: block;
+    overflow: hidden;
+    color: coral;
+}
+
+#half-star:after {
+    content: '\e006';
+    position: absolute;
+    z-index: 8;
+    color: #bdc3c7;
+    top: 0;
+    left: 0;
+}
+
+ul li a {
+    transition: ease 0.5s;
+}
+
+ul li a:hover {
+    color: #ffffff;
+}
+
+.travel_mainDiv p ul li {
+    float: left;
+}
